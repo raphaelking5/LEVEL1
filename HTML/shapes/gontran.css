@@ -1,0 +1,60 @@
+#container {
+    background-color: white;   
+}    
+h5 {
+    color:white;
+    background-color: chestnut;
+    font-family: courier;
+    font-size: 160%;
+    text-align:center;
+    padding: 10px;
+    background-color:rgb(65, 36, 36);
+    border-radius: 10px;
+}    
+
+h1 {
+    color: whitesmoke;
+    font-family: verdana;
+    font-size: 400%;
+    padding: 60px;
+    border-radius: 10px;
+} 
+#hav {
+    float: left;
+    width: 200px;
+    margin-left: 100px;
+    text-align: justify;
+    position: relative;
+    margin: 0;
+    position: relative;
+    top: 0px;
+} 
+#main {
+    float: right;
+    width: 900px;   
+} 
+#footer {
+    clear: both;
+    color:white;
+    background-color: chestnut;
+    font-family: courier;
+    font-size: 160%;
+    text-align:center;
+    padding: 10px;
+    background-color:rgb(65, 36, 36);
+    border-radius: 10px;
+}
+.body {
+    float: left;
+    border-width: 2px;
+    border-radius: 15px;
+}    
+.dodo {
+    padding: 10px;
+    padding-left: 10px;
+}    
+#tata {
+    float: left;
+    border-width: 2px;
+    border-radius: 10px;
+}    

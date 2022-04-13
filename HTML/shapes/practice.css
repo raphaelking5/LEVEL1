@@ -1,0 +1,64 @@
+.main-container{
+    border: 5px solid teal;
+    padding: 1px;
+
+     }
+
+    .main-title{
+    color:red;
+    text-align: center;
+     }
+
+     .section-container{
+    color:blue;
+    text-align: center;
+
+     }
+     .main-display-container{
+         margin: 2rem;
+         padding: 1rem;
+         border:5px solid blue;
+         margin-bottom: 5rem;
+
+
+     }
+
+     .section1,.section2,.section3,.section4,.section5{
+         background-color: cyan;
+         padding: 1rem;
+         text-align: center;
+    
+
+     }
+
+     .section1,.section2,.section3,.section4,.section5{
+         background-color: cyan;
+         padding: 1rem;
+         text-align: center;
+         margin: 3px;
+         display: inline;
+        
+    
+
+     }
+     .section2{
+         background-color:teal;
+         border: 3px solid red;
+         
+    
+
+     }
+     .section4{
+        background-color:brown;
+         border: 3px solid black;
+    
+
+     }
+     .section5{
+        background-color:teal;
+         border: 3px solid red;
+    
+
+     }
+
+     /*   */

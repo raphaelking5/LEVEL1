@@ -1,0 +1,51 @@
+html {
+    background-color: blue;
+    margin-top: 2rem;
+
+}    
+
+body {
+    background-color: green;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 5px;
+    border: 2px solid red;
+
+
+    
+    
+}   
+
+.margin-paragraph  {
+    color:white;
+    background-color: yellow;
+    font-family: courier;
+    font-size: 160%;
+    padding: 2rem;
+    border: 2px solid red;
+}
+.padding-paragraph  {
+    color:white;
+    background-color: paleturquoise;
+    font-family: courier;
+    font-size: 160%;
+    padding: 2rem;
+    border: 2px solid red;
+}
+.display-paragraph  {
+    color:white;
+    background-color: maroon;
+    font-family: courier;
+    font-size: 160%;
+    padding: 2rem;
+    border: 2px solid red;
+}
+
+.learn-border  {
+    color:white;
+    background-color:greenyellow;
+    font-family: courier;
+    font-size: 160%;
+    padding: 2rem;
+    border: 2px solid red;
+}

@@ -1,0 +1,103 @@
+*,html{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    
+    }
+body{
+    width: 100vw;
+    background: linear-gradient( to right, rgb(50 213 221 / 50%), rgb(115 141 86 / 88%));
+    }
+section.parent-conatiner{
+
+display: flex;
+flex-direction: column;
+overflow: hidden;
+width: 50%;
+margin: auto;
+}
+div.texte-input-container input{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0.75rem;
+    text-align: center;
+    border-radius: 8px;
+    color: orange;
+    margin: 1rem 0rem;
+    
+    }
+    div.result-container input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0.8rem;
+    background-color: black;
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+div.btn-container button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+div.btn-container button{
+    width: 40%;
+    padding: 0.5rem;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: white;  
+}
+
+div.btn-container button.reverse-btn{
+    background: #5476548a;
+    background-color: yellow;
+    
+    
+}
+div.btn-container.store-btn{
+    background: #399ae98a;
+    background-color: yellow;
+   
+    
+}
+
+div.hisory-container{
+    margin: 1rem 0rem;
+    display: flex;
+    justify-content: flex-end;
+
+}
+div.hisory-container{
+    border:  none;
+    outline: none;
+    padding: 1rem;
+    color: white;
+    background:#6e8fa3 ;
+    text-align: center;
+
+}
+*.btn:hover{
+    cursor: pointer;
+    background: black !important;
+    color: white !important;
+    transition: 2s ease !important;
+
+}
+
+@keyframes jump{
+    form {
+        position: relative
+        top 0px;
+        left: -17px;
+    }
+    to{
+        position: relative;
+        top:20px;
+        left: 0px;
+    }
+}

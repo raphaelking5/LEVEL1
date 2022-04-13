@@ -1,0 +1,48 @@
+
+.rectangle {
+    height: 350px;
+    width: 250px;
+    margin: auto;
+    background-color:green;
+    
+    
+    
+}  
+
+
+
+.ellipse {
+    height: 350px;
+    width: 250px;
+    color:white;
+    background-color:orange;
+    border-radius: 100%;
+    margin-bottom: 50px;
+
+}
+
+
+
+section#cercle-container {
+    height: 2500px;
+    width: 100vw;
+    margin: auto;
+    background-color: whitesmoke;
+    position: relative;
+    
+}    
+
+
+
+
+section#cercle-container div.cercle-two {
+    height: 50%;
+    width: 50%;
+    margin: 0;
+    position: relative;
+    background-color: blue;
+    border-radius: 60%;
+    margin: 0px auto;
+} 
+
+    

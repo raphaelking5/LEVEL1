@@ -1,0 +1,70 @@
+
+    
+#body {
+    background-color:brown;
+   
+
+    
+    
+}   
+
+html {
+    background-color:brown;
+} 
+
+    
+
+section#rectangle-container {
+    height: 400px;
+    width: 1000px;
+    margin: auto;
+    background-color:whitesmoke;
+    position: relative;
+    
+}    
+
+
+section#rectangle-container div.curve-one {
+    height: 100px;
+    width: 1000px;
+    color:white;
+    background-color: darkblue;
+    border-radius: 49% 51% 50% 50% / 0% 0% 100% 100%;
+    top: 80px;
+    position: absolute;
+    text-align: center;
+} 
+
+
+section#rectangle-container div.curve-two {
+    height: 100px;
+    width: 1000px;
+    color:white;
+    background-color: rgb(6, 150,207);
+    border-radius: 49% 51% 50% 50% / 0% 0% 100% 100%;
+    top: 100px;
+    position: absolute;
+    
+} 
+
+section#rectangle-container div.curve-tree {
+    height: 100px;
+    width: 1000px;
+    color:white;
+    background-color: rgb(185, 216,226);
+    border-radius: 49% 51% 50% 50% / 0% 0% 100% 100%;
+    top: 100px;
+    position: absolute;
+} 
+
+.learn-display  {
+    color: darkblue;
+    text-align:center;
+    font-family: verdana;
+    font-size: 700%;
+    text-shadow:  10px 9px 6px white;
+    margin: -20%;
+    position: relative;
+    
+ 
+}

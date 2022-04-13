@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function calculer()
+        {
+            document.bdc.ht1.value = document.getElementById("qt1").value * document.bdc.pu1.value;
+            document.bdc.ht2.value = document.getElementById("qt2").value * document.bdc.pu2.value;
+            document.bdc.ht3.value = document.getElementById("qt3").value * document.bdc.pu3.value;
+            document.bdc.ht4.value = document.getElementById("qt4").value * document.bdc.pu4.value;
+            document.bdc.ht5.value = document.getElementById("qt5").value * document.bdc.pu5.value;
+            document.bdc.ht6.value = document.getElementById("qt6").value * document.bdc.pu6.value;
+            document.bdc.ht7.value = document.getElementById("qt7").value * document.bdc.pu7.value;
+            document.bdc.ht8.value = document.getElementById("qt8").value * document.bdc.pu8.value;
+            document.bdc.tht.value = parseFloat (document.bdc.ht1.value) + parseFloat(document.bdc.ht2.value) +
+            parseFloat(document.bdc.ht3.value) + parseFloat(document.bdc.ht4.value)+ parseFloat(document.bdc.ht5.value)+ 
+            parseFloat(document.bdc.ht6.value) + parseFloat(document.bdc.ht7.value)+ parseFloat(document.bdc.ht8.value);
+            
+        }
+    </script>
+</head>
+
+<body>
+    
+     <div>FACTURE</div> 
+     
+     <table>
+     <form name="bdc" action="#">
+         <td>
+            
+            <td>Qt</td>
+            <td>PU</td>
+            <td>Total HT</td>       
+        </tr><td width= "200"></td>
+        <tr>
+                               
+            <td>Ordinateur</td>
+            <td><input name="qt1" id="qt1" type="text" size="2" value="2" /></td>
+            <td><input name="pu1" type="text" size="5" value="150000" /></td>
+            <td><input name="ht1" type="text" size="5"  /></td>
+           </tr> 
+           <tr>
+            <td>Ecran</td>
+            <td><input name="qt2" id="qt2" type="text" size="2" value="3" /></td>
+            <td><input name="pu2" type="text" size="5" value="25000" /></td>
+            <td><input name="ht2" type="text" size="5"  /></td>
+        </tr> 
+        <tr>
+            <td>Souris</td>
+            <td><input name="qt3" id="qt3" type="text" size="2" value="6" /></td>
+            <td><input name="pu3" type="text" size="5" value="5000" /></td>
+            <td><input name="ht3" type="text" size="5"  /></td>
+        </tr> 
+        <tr>
+            <td>Imprimante</td>
+            <td><input name="qt4" id="qt4" type="text" size="2" value="6" /></td>
+            <td><input name="pu4" type="text" size="5" value="35000" /></td>
+            <td><input name="ht4" type="text" size="5"  /></td>
+        </tr>
+        <td>Disque Dur</td>
+            <td><input name="qt5" id="qt5" type="text" size="2" value="5" /></td>
+            <td><input name="pu5" type="text" size="5" value="15000" /></td>
+            <td><input name="ht5" type="text" size="5"  /></td>
+           </tr> 
+           <td>Unite Central</td>
+            <td><input name="qt6" id="qt6" type="text" size="2" value="7" /></td>
+            <td><input name="pu6" type="text" size="5" value="90000" /></td>
+            <td><input name="ht6" type="text" size="5"  /></td>
+           </tr> 
+           <td>Switch</td>
+            <td><input name="qt7" id="qt7" type="text" size="2" value="2" /></td>
+            <td><input name="pu7" type="text" size="5" value="75000" /></td>
+            <td><input name="ht7" type="text" size="5"  /></td>
+           </tr>
+           <td>Projecteur</td>
+            <td><input name="qt8" id="qt8" type="text" size="2" value="2" /></td>
+            <td><input name="pu8" type="text" size="5" value="95000" /></td>
+            <td><input name="ht8" type="text" size="5"  /></td>
+           </tr>  
+        <tr>
+            <td></td>
+            <td></td>
+            <td>THT</td>
+            <td><input name="tht" type="text" size="5"  /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>TVA</td>
+            <td><input name="tva" type="text" size="5"  /></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="calculer" onclick="calculer();"></td>
+            <td><input type="submit" value="envoyer" onclick="calculer();"/></td> 
+            <td>Total TTC</td>
+            <td><input name="ttc" type="text" size="5"  /></td>
+        </tr>
+    </form>
+
+           
+     </table>
+</body>
+</html>
